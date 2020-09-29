@@ -1,0 +1,36 @@
+.checkbox-header {
+  line-height: 1.6em;
+  color: #f7f7f7;
+  font-size: 50px;
+  text-align: center;
+  font-family: "Contrail One", cursive;
+}
+.checkbox-header:hover {
+  transition-delay: 0.2s;
+  letter-spacing: 3px;
+}
+
+.checkbox-body {
+  line-height: 1.6em; /*the space between lines*/
+  color: white;
+}
+.checkbox-list:hover {
+  transition-delay: 0.2s;
+  letter-spacing: 3px;
+}
+.checkbox-list {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif; /*font size*/
+  font-size: 25px; /*changes font size*/
+  font-family: "Contrail One", cursive;
+}
+
+.checkbox-list2 {
+  border: white;
+  font-size: 25px;
+  font-family: "Contrail One", cursive;
+}
+.checkbox-list2:hover {
+  transition-delay: 0.2s;
+  letter-spacing: 3px;
+}

@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 30vmin;
   pointer-events: none;
 }
 
@@ -13,21 +13,32 @@
   }
 }
 
+.bio {
+  font-size: 15px;
+  font-family: "Contrail One", cursive;
+}
+
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  /*background-color: #222c42;*/
+  background: url(./images/camping.JPG),
+    linear-gradient(180deg, #2f58af 40%, rgb(151, 150, 150));
+  background-blend-mode: luminosity;
+  background-size: 100%;
+
+  /*background: linear-gradient(180deg, #222c42 70%, rgb(151, 150, 150));*/
+  min-height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: "Contrail One", cursive;
 }
-
-.App-link {
-  color: #61dafb;
+h1:hover {
+  transition-delay: 0.2s;
+  letter-spacing: 3px;
 }
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +46,44 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App-link {
+  text-transform: uppercase;
+  text-decoration: none;
+  /*background: linear-gradient(#222c42);*/
+}
+
+.btn {
+  color: white;
+  background: #4e6cad;
+  border-color: cornflowerblue;
+  text-size-adjust: 8;
+  letter-spacing: 4px;
+  font-size: 24px;
+  font-weight: 500; /*thiccness of letters*/
+  text-transform: uppercase;
+  border-radius: 10px; /*makes button border round*/
+  font-family: "Contrail One", cursive;
+}
+.btn:hover {
+  transition: 0.5s;
+  /*transition-delay: 0.2s;*/
+  color: white;
+  background: #4db36c;
+  border-color: #63daa2;
+  text-size-adjust: 8;
+  letter-spacing: 4px;
+  font-size: 24px;
+  font-weight: 500; /*thiccness of letters*/
+  text-transform: uppercase;
+  border-radius: 10px;
+  font-family: "Contrail One", cursive;
+  box-shadow: 5px 5px 15px #000000;
+}
+
+.lower {
+  /*background-color: rgb(151, 150, 150);*/
+  background-color: #4b69cc;
+  min-height: 40vh;
 }
