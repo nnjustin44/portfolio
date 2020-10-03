@@ -22,6 +22,7 @@
   /*background-color: #222c42;*/
   background: url(./images/camping.JPG),
     linear-gradient(180deg, #2f58af 40%, rgb(151, 150, 150));
+
   background-blend-mode: luminosity;
   background-size: 100%;
 

@@ -4,6 +4,7 @@ import "./check-box.css";
 import logo from "../images/logo192.png";
 import javascript from "../images/javascript-logo.png";
 import firebase from "../images/firebase-logo.png";
+
 function CheckboxContainer() {
   let [checked, setChecked] = React.useState(true);
   let handleChange = (event) => {
@@ -32,7 +33,7 @@ function CheckboxContainer() {
       <header className="checkbox-header">Skillset</header>{" "}
       {/*className for .css refernce*/}
       <body className="checkbox-body">
-        <p className="logo">
+        <div className="logo">
           <img src={logo} className="react-logo"></img>
           <br></br>
           <Checkbox
@@ -42,9 +43,9 @@ function CheckboxContainer() {
             color="default"
             inputProps={{ "aria-label": "secondary checkbox" }}
           />
-        </p>
+        </div>
 
-        <p className="logo2">
+        <div className="logo2">
           <img src={javascript} className="javascript-logo"></img>
           <br></br>
           <Checkbox
@@ -54,9 +55,9 @@ function CheckboxContainer() {
             color="default"
             inputProps={{ "aria-label": "primary checkbox" }}
           />
-        </p>
+        </div>
 
-        <p className="logo3">
+        <div className="logo3">
           <img src={firebase} className="firebase-logo"></img>
           <br></br>
           <Checkbox
@@ -66,7 +67,7 @@ function CheckboxContainer() {
             color="default"
             inputProps={{ "aria-label": "primary checkbox" }}
           />
-        </p>
+        </div>
       </body>
     </> //all react apps need fragment like <> or <div>
   );

@@ -12,10 +12,13 @@
 
 .checkbox-body {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   /* overflow: auto; */
   /* position: relative; */
   /* line-height: 1.6em; /*the space between lines */
-  color: white;
+  /* color: white; */
 }
 
 .logo {
@@ -41,8 +44,8 @@
   flex-grow: 4;
   flex-shrink: 3;
   /* position: relative;
-  top: 200px;
-  left: 650px;
-  height: 200px;
-  margin: 4px; */
+  bottom: 70px;
+  left: 10px;*/
+
+  /* margin: -50px;  Causes unwanted white boarders*/
 }
