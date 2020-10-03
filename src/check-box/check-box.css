@@ -11,29 +11,38 @@
 }
 
 .checkbox-body {
-  line-height: 1.6em; /*the space between lines*/
+  display: flex;
+  /* overflow: auto; */
+  /* position: relative; */
+  /* line-height: 1.6em; /*the space between lines */
   color: white;
 }
-.checkbox-list:hover {
-  transition-delay: 0.2s;
-  letter-spacing: 3px;
-}
-.checkbox-list {
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif; /*font size*/
-  font-size: 25px; /*changes font size*/
-  font-family: "Contrail One", cursive;
+
+.logo {
+  flex-shrink: 3;
+  flex-grow: 4;
+
+  /* position: relative;
+  left: 10px;
+  top: 10px; */
 }
 
-.check-list1 {
+.logo2 {
+  flex-grow: 4;
+  flex-shrink: 3;
+  /* position: absolute;
+  top: 550px;
+  left: 400px;
+
+  margin: 4px; */
 }
 
-.checkbox-list2 {
-  border: white;
-  font-size: 25px;
-  font-family: "Contrail One", cursive;
-}
-.checkbox-list2:hover {
-  transition-delay: 0.2s;
-  letter-spacing: 3px;
+.logo3 {
+  flex-grow: 4;
+  flex-shrink: 3;
+  /* position: relative;
+  top: 200px;
+  left: 650px;
+  height: 200px;
+  margin: 4px; */
 }
