@@ -1,6 +1,9 @@
 import React from "react";
 import Checkbox from "@material-ui/core/Checkbox";
 import "./check-box.css";
+import logo from "../images/logo192.png";
+import javascript from "../images/javascript-logo.png";
+
 function CheckboxContainer() {
   let [checked, setChecked] = React.useState(true);
 
@@ -23,18 +26,23 @@ function CheckboxContainer() {
       <header className="checkbox-header">Skillset</header>{" "}
       {/*className for .css refernce*/}
       <body className="checkbox-body">
-        <p className="checkbox-list">
-          React
+        <p className="first-image">
+          <img src={logo} className="react-logo"></img>
+          <br></br>
           <Checkbox
+            className="check-box1"
             checked={checked}
             onChange={handleChange}
             color="default"
             inputProps={{ "aria-label": "secondary checkbox" }}
           />
         </p>
-        <p className=" checkbox-list2">
-          Javascript
+
+        <p className="second-image">
+          <img src={javascript} className="javascript-logo"></img>
+          <br></br>
           <Checkbox
+            className="check-box2"
             checked={checked2}
             onChange={handleChange2}
             color="default"
