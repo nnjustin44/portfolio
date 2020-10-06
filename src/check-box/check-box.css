@@ -23,7 +23,7 @@
 
 .logo {
   flex-shrink: 3;
-  flex-grow: 4;
+  flex-grow: 3;
 
   /* position: relative;
   left: 10px;
@@ -31,7 +31,7 @@
 }
 
 .logo2 {
-  flex-grow: 4;
+  flex-grow: 3;
   flex-shrink: 3;
   /* position: absolute;
   top: 550px;
@@ -41,7 +41,7 @@
 }
 
 .logo3 {
-  flex-grow: 4;
+  flex-grow: 3;
   flex-shrink: 3;
   /* position: relative;
   bottom: 70px;
