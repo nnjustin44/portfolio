@@ -1,10 +1,9 @@
 import React from "react";
 import profile_pic from "./images/thiccboi.png";
 import "./App.css";
-import date from "./date_time";
-// import { Document } from "react-pdf";
 import { Button } from "@material-ui/core";
 import CheckboxContainer from "./check-box/check-box";
+import { dateTime } from "./date_time.js";
 
 function App() {
   // console.log("Hello darkness");
@@ -18,6 +17,9 @@ function App() {
 
       <header className="App-header">
         <title>Portfolio</title>
+        <nav className="navbar" role="navigation">
+          <p className="date">{dateTime()}</p>
+        </nav>
         <img src={profile_pic} className="App-logo" alt="logo" />
         <h1>Justin Nguyen</h1>
         <h1 className="bio">

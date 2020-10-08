@@ -1,5 +1,5 @@
-function Date() {
-  let date = new Date();
+import * as moment from "moment";
 
-  return console.log(date);
+export function dateTime() {
+  return moment().format("dddd MMMM  Mo YYYY h:mm a");
 }

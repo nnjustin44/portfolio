@@ -18,6 +18,10 @@
   font-family: "Contrail One", cursive;
 }
 
+.navbar {
+  background-color: blue;
+}
+
 .App-header {
   /*background-color: #222c42;*/
   background: url(./images/camping.JPG),
