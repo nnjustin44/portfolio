@@ -1,6 +1,15 @@
 .App {
   text-align: center;
 }
+.navbar {
+  position: sticky;
+  top: 0px;
+  background-color: transparent;
+  height: 40x;
+}
+.date {
+  margin-left: 1000px;
+}
 
 .App-logo {
   height: 30vmin;
@@ -16,10 +25,6 @@
 .bio {
   font-size: 15px;
   font-family: "Contrail One", cursive;
-}
-
-.navbar {
-  background-color: blue;
 }
 
 .App-header {
