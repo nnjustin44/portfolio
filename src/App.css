@@ -58,9 +58,11 @@ h1:hover {
   }
 }
 
-.App-link {
+.resumelink,
+.codelink {
   text-transform: uppercase;
   text-decoration: none;
+
   /*background: linear-gradient(#222c42);*/
 }
 
@@ -95,5 +97,5 @@ h1:hover {
 .lower {
   /*background-color: rgb(151, 150, 150);*/
   background-color: #4b69cc;
-  min-height: 40vh;
+  min-height: 60vh;
 }

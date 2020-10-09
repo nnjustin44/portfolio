@@ -37,12 +37,23 @@ function App() {
 
       <body className="lower">
         <CheckboxContainer />
-        <a
-          className="App-link"
-          href="https://docs.google.com/document/d/1tLtpvGKv8mol9l5AIMz1L3wIG3j__41KW0nx0CdjSQw/edit?usp=sharing"
-        >
-          <Button class="btn btn-primary bt-lg">Go To Resume</Button>
-        </a>
+        <p>
+          <a
+            className="resumelink"
+            href="https://docs.google.com/document/d/1tLtpvGKv8mol9l5AIMz1L3wIG3j__41KW0nx0CdjSQw/edit?usp=sharing"
+          >
+            <Button class="btn btn-primary bt-lg">Go To Resume</Button>
+          </a>
+        </p>
+
+        <p>
+          <a
+            className="codelink"
+            href="https://github.com/nnjustin44/portfolio"
+          >
+            <Button class="btn btn-primary bt-lg">View Code</Button>
+          </a>
+        </p>
       </body>
     </div>
   );
