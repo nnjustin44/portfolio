@@ -6,7 +6,6 @@ import CheckboxContainer from "./check-box/check-box";
 import { dateTime } from "./date_time.js";
 
 function App() {
-  // console.log("Hello darkness");
 
   return (
     <div className="App">
@@ -29,11 +28,6 @@ function App() {
         </h1>
       </header>
 
-      {/* <a>
-          <Document file="./Justin_Nguyen_Resume.pdf" />
-
-          <Button color="primary">Go To Resume</Button>
-        </a> */}
 
       <body className="lower">
         <CheckboxContainer />

@@ -15,37 +15,19 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  /* overflow: auto; */
-  /* position: relative; */
-  /* line-height: 1.6em; /*the space between lines */
-  /* color: white; */
 }
 
 .logo {
   flex-shrink: 3;
   flex-grow: 3;
-
-  /* position: relative;
-  left: 10px;
-  top: 10px; */
 }
 
 .logo2 {
   flex-grow: 3;
   flex-shrink: 3;
-  /* position: absolute;
-  top: 550px;
-  left: 400px;
-
-  margin: 4px; */
 }
 
 .logo3 {
   flex-grow: 3;
   flex-shrink: 3;
-  /* position: relative;
-  bottom: 70px;
-  left: 10px;*/
-
-  /* margin: -50px;  Causes unwanted white boarders*/
 }
