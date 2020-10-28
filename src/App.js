@@ -1,5 +1,5 @@
 import React from "react";
-import profile_pic from "./images/thiccboi.png";
+import profile_pic from "./images/background.png";
 import "./App.css";
 import { Button } from "@material-ui/core";
 import CheckboxContainer from "./check-box/check-box";
