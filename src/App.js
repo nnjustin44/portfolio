@@ -18,7 +18,7 @@ function App() {
       <header className="App-header">
         <title>Portfolio</title>
         <nav className="navbar" role="navigation">
-          <p className="date">{dateTime()}</p>
+          <p className="date">{dateTime()}</p> 
         </nav>
         <img src={profile_pic} className="App-logo" alt="logo" />
         <h1>Justin Nguyen</h1>
