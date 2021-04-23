@@ -20,14 +20,27 @@
 .logo {
   flex-shrink: 3;
   flex-grow: 3;
+  max-width: 100%;
+  height: auto;
 }
 
 .logo2 {
   flex-grow: 3;
   flex-shrink: 3;
+  max-width: 100%;
+  height: auto;
 }
 
 .logo3 {
   flex-grow: 3;
   flex-shrink: 3;
+  max-width: 100%;
+  height: auto;
+}
+
+.logo4 {
+  flex-grow: 3;
+  flex-shrink: 3;
+  max-width: 100%;
+  height: auto;
 }

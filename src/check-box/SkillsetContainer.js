@@ -1,11 +1,12 @@
 import React from "react";
 import Checkbox from "@material-ui/core/Checkbox";
-import "./check-box.css";
+import "./Skillset-Container.css";
 import logo from "../images/logo192.png";
 import javascript from "../images/javascript-logo.png";
 import firebase from "../images/firebase-logo.png";
+import csharp from "../images/csharp-logo.png";
 
-function CheckboxContainer() {
+function SkillsetContainer() {
   let [checked, setChecked] = React.useState(true);
   let handleChange = (event) => {
     setChecked(event.target.checked);
@@ -24,6 +25,14 @@ function CheckboxContainer() {
     console.log(event);
     console.log(event.target);
   };
+
+  let [checked4, setChecked4] = React.useState(true);
+  let handleChange4 = (event) => {
+    setChecked4(event.target.checked);
+    console.log(event);
+    console.log(event.target);
+  };
+
   return (
     <>
       <link
@@ -68,9 +77,21 @@ function CheckboxContainer() {
             inputProps={{ "aria-label": "primary checkbox" }}
           />
         </div>
+
+        <div className="logo4">
+          <img src={csharp} className="csharp-logo"></img>
+          <br></br>
+          <Checkbox
+            className="check-box4"
+            checked={checked4}
+            onChange={handleChange3}
+            color="default"
+            inputProps={{ "aria-label": "primary checkbox" }}
+          />
+        </div>
       </body>
     </> //all react apps need fragment like <> or <div>
   );
 }
 
-export default CheckboxContainer; 
+export default SkillsetContainer; 

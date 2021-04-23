@@ -2,7 +2,7 @@ import React from "react";
 import profile_pic from "./images/background.png";
 import "./App.css";
 import { Button } from "@material-ui/core";
-import CheckboxContainer from "./check-box/check-box";
+import SkillsetContainer from "./check-box/SkillsetContainer";
 import { dateTime } from "./date_time.js";
 
 
@@ -31,7 +31,7 @@ function App() {
 
 
       <body className="lower">
-        <CheckboxContainer />
+        <SkillsetContainer />
         <p>
           <a
             className="resumelink"
