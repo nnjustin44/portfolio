@@ -46,7 +46,7 @@ function App() {
             className="codelink"
             href="https://github.com/nnjustin44/portfolio"
           >
-            <Button class="btn btn-primary bt-lg">View Code</Button>
+            <Button class="btn btn-primary bt-lg">View Website Code</Button>
           </a>
         </p>
       </body>
