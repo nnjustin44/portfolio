@@ -30,9 +30,9 @@ function App() {
         <div className="headerOverlay">
           <div className="headerOverlayText">
             <p>
-            In the pursuit of excellence, driven for self development in all aspects of life.  
+            In the pursuit of excellence, driven for self development in   
             </p>
-            <p></p>
+            <p>software development, martial arts, and coffee.</p>
           </div>
         </div>
       </header>
