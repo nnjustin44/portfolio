@@ -17,16 +17,24 @@ function App() {
 
       <header className="App-header">
         <title>Portfolio</title>
-        <nav className="navbar" role="navigation">
-          <p className="date">{dateTime()}</p> 
-        </nav>
-        <img src={profile_pic} className="App-logo" alt="logo" />
-        <h1>Justin Nguyen</h1>
-        <h1 className="bio">
-          <h1>Welcome! </h1>
-          <i>Software Developer. Creative. Dedicated. </i>
-          <br></br>
+          <nav className="navbar" role="navigation">
+            <p className="date">{dateTime()}</p> 
+          </nav>
+          <img src={profile_pic} className="App-logo" alt="logo" />
+          <h1>Justin Nguyen</h1>
+          <h1 className="bio">
+            <h1>Welcome! </h1>
+            <i>Software Developer. Creative. Dedicated. </i>
+            <br></br>
         </h1>
+        <div className="headerOverlay">
+          <div className="headerOverlayText">
+            <p>
+            In the pursuit of excellence, driven for self development in all aspects of life.  
+            </p>
+            <p></p>
+          </div>
+        </div>
       </header>
 
 
