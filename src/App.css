@@ -106,9 +106,9 @@ h1:hover {
 .btn:hover {
   transition: 0.5s;
   /*transition-delay: 0.2s;*/
-  color: white;
-  background: #4db36c;
-  border-color: #63daa2;
+  color: rgb(0, 0, 0);
+  background: rgb(228, 223, 223);
+  border-color: #98a19d;
   text-size-adjust: 8;
   letter-spacing: 4px;
   font-size: 24px;
