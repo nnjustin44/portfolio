@@ -1,13 +1,15 @@
 import React from "react";
-import profile_pic from "./images/background.png";
+import profile_pic from "./images/profile_pic.png";
 import "./App.css";
 import { Button } from "@material-ui/core";
 import SkillsetContainer from "./check-box/SkillsetContainer";
 import { dateTime } from "./date_time.js";
-
+import { getQuote } from "./api/quote_api.js";
+import { getWeather } from "./api/weather_api.js";
+import Weather from "./weather/Weather.js";
 
 function App() {
-
+console.log(getWeather())
   return (
     <div className="App">
       <link
@@ -19,20 +21,24 @@ function App() {
         <title>Portfolio</title>
           <nav className="navbar" role="navigation">
             <p className="date">{dateTime()}</p> 
+            {/* <p className="date">{getQuote()}</p> */}
+            {/* TODO write func to call getWeather then update state once api call has returned */}
+            {/* effect */}
+            <p className="date">{getWeather()}</p>  
+            
           </nav>
           <img src={profile_pic} className="App-logo" alt="logo" />
           <h1>Justin Nguyen</h1>
           <h1 className="bio">
-            <h1>Welcome! </h1>
-            <i>Software Developer. Creative. Dedicated. </i>
+            <h1>Software Developer </h1>
+            <i>Honest. Creative. Dedicated. </i>
             <br></br>
         </h1>
         <div className="headerOverlay">
           <div className="headerOverlayText">
-            <p>
-            In the pursuit of excellence, driven for self development in   
-            </p>
-            <p>software development, martial arts, and coffee.</p>
+            <p>In the pursuit of excellence,</p>
+            <p>driven for self growth in</p>
+            <p>software development</p>
           </div>
         </div>
       </header>
