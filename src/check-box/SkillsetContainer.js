@@ -84,7 +84,7 @@ function SkillsetContainer() {
           <Checkbox
             className="check-box4"
             checked={checked4}
-            onChange={handleChange3}
+            onChange={handleChange4}
             color="default"
             inputProps={{ "aria-label": "primary checkbox" }}
           />
